@@ -14,8 +14,6 @@ def binary_search( l , target , low = None , high = None):
     if high is None :
         high = len(l) - 1
     
-    # just to test
-    print('test')
 
     mid_point = (low + high) // 2
     
